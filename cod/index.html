@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Modal Acessível</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <button id="openModalBtn">Abrir Modal</button>
+
+    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="modal" hidden>
+        <div class="modal-content">
+            <h2 id="modalTitle">Título do Modal</h2>
+            <p>Este é um modal acessível que fecha com ESC e mantém o foco.</p>
+            <button id="closeModalBtn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
